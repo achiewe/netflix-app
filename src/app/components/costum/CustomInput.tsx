@@ -10,7 +10,7 @@ function CustomInput({ inputType, inputPlaceholder }: inputProps): JSX.Element {
     <input
       type={inputType}
       placeholder={inputPlaceholder}
-      className="w-full text-inherit px-[10px] py-[20px]"
+      className="w-full text-inherit px-[10px] py-[20px] rounded-[10px] border-stone-600 bg-red-900 z-10"
     />
   );
 }
