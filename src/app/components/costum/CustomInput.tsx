@@ -6,7 +6,13 @@ interface inputProps {
 }
 
 function CustomInput({ inputType, inputPlaceholder }: inputProps): JSX.Element {
-  return <input type={inputType} placeholder={inputPlaceholder} />;
+  return (
+    <input
+      type={inputType}
+      placeholder={inputPlaceholder}
+      className="w-full text-inherit px-[10px] py-[20px]"
+    />
+  );
 }
 
 export default CustomInput;

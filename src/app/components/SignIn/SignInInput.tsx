@@ -3,7 +3,8 @@ import CustomInput from "../costum/CustomInput";
 
 export default function SignInInput() {
   return (
-    <div>
+    <div className="flex flex-col gap-[20px]">
+      <CustomInput inputType="text" inputPlaceholder="Email or mobile number" />
       <CustomInput inputType="text" inputPlaceholder="Email or mobile number" />
     </div>
   );
