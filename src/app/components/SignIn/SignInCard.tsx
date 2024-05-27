@@ -1,5 +1,6 @@
 import SignInInput from "./SignInInput";
 
+// sign in Card
 export default function SignInCard() {
   return (
     <div className="min-h-[600px] flex flex-col px-[68px] py-[48px] bg-[rgba(0,0,0,0.7)]">
