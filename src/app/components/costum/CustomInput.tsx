@@ -11,7 +11,7 @@ function CustomInput({ inputType, inputPlaceholder }: inputProps): JSX.Element {
     <input
       type={inputType}
       placeholder={inputPlaceholder}
-      className="outline-none w-full text-inherit px-[10px] py-[20px] rounded-[10px] border-stone-600 bg-red-900 z-10"
+      className="z-20 border outline-none w-full placeholder:text-slate-400 text-[#ffffff] px-[10px] py-[20px] rounded-[5px] bg-[#363636] opacity-30"
     />
   );
 }
