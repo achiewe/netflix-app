@@ -1,17 +1,20 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import SignInCard from "../components/SignIn/SignInCard";
 
 // SignIn function
 
 export default function page() {
-  const [state, setState] = useState(2);
-  console.log(useState, "asdasd");
+  const buttonRef = useRef(null);
+
+  console.log(buttonRef, "ads");
+
   return (
     <div className="flex justify-center items-center w-full h-screen bg-[url('../../public/netflixBackground.png')] bg-no-repeat bg-cover relative">
       <div className="w-full h-full bg-black absolute opacity-50" />
       <SignInCard />
+      <button ref={buttonRef}> achi</button>
     </div>
   );
 }
