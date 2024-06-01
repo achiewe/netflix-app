@@ -1,14 +1,14 @@
 "use client";
 
-import React, { useCallback, useRef, useState } from "react";
+import React, { useCallback, useMemo, useRef, useState } from "react";
 import SignInCard from "../components/SignIn/SignInCard";
 
 // SignIn function
 
 export default function page() {
   const buttonRef = useRef(null);
-  const functionUseCallback = useCallback(() => {
-    console.log("gendi");
+  const functionUseCallback = useMemo(() => {
+    return "geonodi";
   }, []);
 
   console.log(buttonRef, "ads");
