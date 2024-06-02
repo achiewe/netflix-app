@@ -2,27 +2,22 @@
 
 import React, { useCallback, useMemo, useRef, useState } from "react";
 import SignInCard from "../components/SignIn/SignInCard";
+import { createContext } from "vm";
 
 // SignIn function
 
 export default function page() {
-  const buttonRef = useRef(null);
-  const functionUseCallback = useMemo(() => {
-    return "geonodi";
-  }, []);
-
-  console.log(buttonRef, "ads");
-
+  let name = "achi";
+  const myContext = createContext();
   return (
-    <div className="flex justify-center items-center w-full h-screen bg-[url('../../public/netflixBackground.png')] bg-no-repeat bg-cover relative">
-      <div className="w-full h-full bg-black absolute opacity-50" />
-      <SignInCard />
-      <button
-        style={{ backgroundColor: "red", width: 300, height: 300 }}
-        ref={buttonRef}
-      >
-        achi
-      </button>
-    </div>
+    <myContext.Provider value={name}>
+      <div className="flex justify-center items-center w-full h-screen bg-[url('../../public/netflixBackground.png')] bg-no-repeat bg-cover relative">
+        <div className="w-full h-full bg-black absolute opacity-50" />
+        <SignInCard />
+        <button style={{ backgroundColor: "red", width: 300, height: 300 }}>
+          achi
+        </button>
+      </div>
+    </myContext.Provider>
   );
 }
