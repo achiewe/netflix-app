@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "The Netflix Clone project, titled, Streamline is a comprehensive web application designed to emulate the core functionalities and user experience of the popular streaming service, Netflix. The project encompasses a wide range of features to deliver a seamless, engaging, and intuitive streaming experience for users.",
 };
 
+// RootLayout the function where render components
 export default function RootLayout({
   children,
 }: Readonly<{
