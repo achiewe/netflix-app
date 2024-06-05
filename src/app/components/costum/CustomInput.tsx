@@ -5,6 +5,7 @@ interface inputProps {
   inputPlaceholder: string;
 }
 
+// custom function inside the customInput component
 function CustomInput({ inputType, inputPlaceholder }: inputProps): JSX.Element {
   return (
     <input
