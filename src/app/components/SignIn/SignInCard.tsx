@@ -7,7 +7,9 @@ export default function SignInCard() {
       <header className="text-left">
         <h1 className="font-bold text-[#ffffff] text-2xl mb-[28px]">Sign In</h1>
       </header>
+      <div className="w-full flex flex-col gap-[16px]">
       <SignInInput />
+      </div>
     </div>
   );
 }
