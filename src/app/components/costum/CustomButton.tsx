@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function CustomButton() {
   return (
-    <div>
-      
-    </div>
+    <button className='bg-[red] w-full text-white h-[50px] rounded-[5px] font-bold'> Sign In </button>
   )
 }
