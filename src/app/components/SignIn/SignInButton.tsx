@@ -4,7 +4,7 @@ import CustomButton from '../costum/CustomButton'
 export default function SignInButton() {
   return (
     <div className='w-full flex flex-col gap-[16px]'>
-      <CustomButton buttonName="Sign In"/>
+      <CustomButton buttonName="Sign In" bgColor='red'/>
     </div>
   )
 }
