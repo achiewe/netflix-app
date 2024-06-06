@@ -1,3 +1,4 @@
+import SignInButton from "./SignInButton";
 import SignInInput from "./SignInInput";
 
 // sign in Card
@@ -9,6 +10,7 @@ export default function SignInCard() {
       </header>
       <div className="w-full flex flex-col gap-[16px]">
       <SignInInput />
+      <SignInButton/>
       </div>
     </div>
   );
