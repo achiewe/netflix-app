@@ -2,11 +2,10 @@ import React from 'react'
 
 interface CustomButtonProps{
 buttonName:string
-bgColor:string
 }
 
-export default function CustomButton({buttonName, bgColor}:CustomButtonProps) {
+export default function CustomButton({buttonName}:CustomButtonProps) {
   return (
-    <button className={`bg-[${bgColor}] w-full text-white h-[40px] rounded-[5px] font-bold cursor-pointer hover:opacity-60`}> {buttonName} </button>
+    <button className={`w-full text-white h-[40px] rounded-[5px] font-bold cursor-pointer hover:opacity-60`}> {buttonName} </button>
   )
 }
