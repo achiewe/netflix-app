@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className='flex flex-row w-full items-center justify-between px-[15px]'>
    <Image src={netflixLogo} alt='netflix logo' className='w-[150px] h-[80px] cursor-pointer'/>
-   <Image src={burgerMenu} alt='burger logo' className='w-[40px] h-[40px] cursor-pointer'/>
+   <Image src={burgerMenu} alt='burger logo' className='w-[35px] h-[35px] cursor-pointer'/>
     </header>
   )
 }
