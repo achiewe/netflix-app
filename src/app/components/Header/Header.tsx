@@ -1,5 +1,5 @@
 import React from 'react'
-import netflixLogo from "../../../../public/netflixLogo.png";
+import netflixLogo from "../../../../public/assets/netflixLogo.png";
 import Image from 'next/image';
 export default function Header() {
   return (
