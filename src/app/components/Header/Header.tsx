@@ -1,6 +1,5 @@
 import React from 'react'
 import netflixLogo from "../../../../public/assets/netflixLogo.png";
-import burgerMenu from "../../../../public/assets/burgerMenu.png";
 import Image from 'next/image';
 export default function Header() {
   return (
