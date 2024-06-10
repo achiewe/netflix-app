@@ -5,11 +5,11 @@ import netflixLogo from "../../../../public/assets/netflixLogo.png";
 import Image from 'next/image';
 export default function Header() {
 
-  const locationReload = location.reload();
+ 
   return (
     <header className='flex flex-row w-full items-center justify-between px-[15px]'>
    <Image src={netflixLogo} alt='netflix logo' className='w-[150px] h-[80px] cursor-pointer' onClick={() => {
-    locationReload
+    location.reload()
    }}/>
 <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='cursor-pointer'>
 <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
