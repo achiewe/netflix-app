@@ -4,14 +4,15 @@ import React from 'react'
 import CustomButton from '../costum/CustomButton'
 
 
+
 // SignInButton component
 export default function SignInButton() {
   const pathname = window.location.pathname;
   console.log(pathname);
 
+
   const handleSignInClick = () => {
     console.log("Sign In button clicked");
-    
     // Add your sign-in logic here
   };
 
