@@ -12,10 +12,10 @@ export default function SignInInput() {
   return (
     <div className="flex flex-col gap-[20px]">
       <CustomInput inputType="email" value={emailValue} inputPlaceholder="Email or mobile number" onChange={(e) => {
-        e.target.value
+        setEmailValue(e.target.value)
       }}/>
       <CustomInput inputType="password" value={passwordValue} inputPlaceholder="password" onChange={(e) => {
-        e.target.value
+        setPasswordValue(e.target.value)
       }}/>
     </div>
   );
