@@ -13,6 +13,7 @@ export default function SignInButton() {
 
   const handleSignInClick = () => {
     console.log("Sign In button clicked");
+    window.location.href = '/';
     // Add your sign-in logic here
   };
 
