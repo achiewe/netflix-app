@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import { Provider } from "react-redux";
-import store from "./redux/features/store";
+import { ReduxProvider } from "./redux/provider";
 
 const roboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -19,12 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Provider store={store}>
-      <head>
+     <head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
-      <body className={roboto.className}>{children}</body>
-      </Provider>
+      <body className={roboto.className}>
+        <ReduxProvider>{children}</ReduxProvider>
+      </body>
     </html>
   );
 }
