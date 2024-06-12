@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 export interface BurgerProps{
     openFrame:boolean
@@ -12,8 +12,8 @@ const OpenBurgerSlice = createSlice({
     name:"openFrame",
     initialState,
     reducers:{
-        setOpenFrame:(state) => {
-            state.openFrame = !state.openFrame
+        setOpenFrame:(state, action:PayloadAction<boolean>) => {
+            state.openFrame = action.payload
         }
     }
 })
