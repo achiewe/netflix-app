@@ -7,17 +7,19 @@ import { useSelector } from 'react-redux';
 export default function BurgerFrame() {
     const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
   return (
-    <div className={`w-[100%] h-[254px] bg-[red] ${openFrame ? "fixed" : "absolute"} top-[80px] overflow-x-hidden ${openFrame ? "right-[-100%]" : "right-0"} overflow-hidden flex flex-col justify-center items-center gap-[10px] duration-500`}>
-     <Link href="/TVShows">
+    <div className={`w-[100%] h-[254px] bg-[red] ${openFrame ? "fixed" : "absolute"} top-[80px] overflow-x-hidden ${openFrame ? "right-[-100%]" : "right-0"} overflow-hidden flex flex-col justify-center items-center gap-[20px] duration-500`}>
+     <Link href="/TVShows" className='text-[20px] font-extrabold'>
      TV Shows
      </Link>
-        Movies
-     <Link href="/Movies">
+      
+     <Link href="/Movies" className='text-[20px] font-extrabold'>
+     Movies
      </Link>
+  
+    <Link href="/New&Popular" className='text-[20px] font-extrabold'>
     New & Popular
-    <Link href="/New&Popular">
     </Link>
-    <Link href="/MyList">
+    <Link href="/MyList" className='text-[20px] font-extrabold'>
     My List
     </Link>
     </div>
