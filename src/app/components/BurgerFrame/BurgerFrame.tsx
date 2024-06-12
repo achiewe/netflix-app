@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BurgerFrame() {
   return (
-    <div className='w-[200px] h-[400px] bg-[red] absolute left-0 right-0 top-0 bottom-0'>
+    <div className='w-[100%] h-[254px] bg-[red] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
       
     </div>
   )
