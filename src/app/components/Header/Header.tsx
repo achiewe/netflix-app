@@ -4,8 +4,8 @@ import React from 'react'
 import netflixLogo from "../../../../public/assets/netflixLogo.png";
 import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@/app/features/store';
-import { setOpenFrame } from '@/app/features/OpenBurgerSlice';
+import { RootState } from '@/app/redux/features/store';
+import { setOpenFrame } from '@/app/redux/features/OpenBurgerSlice';
 export default function Header() {
 const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
  const dispatch = useDispatch()

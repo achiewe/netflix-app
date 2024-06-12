@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Provider } from "react-redux";
-import store from "./features/store";
+import store from "./redux/features/store";
 
 const roboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
 export const metadata: Metadata = {
