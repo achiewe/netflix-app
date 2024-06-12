@@ -2,6 +2,7 @@
 import React from 'react'
 import netflixLogo from "../../../../public/assets/netflixLogo.png";
 import BurgerSvg from "../../../../public/assets/burgerMenu.svg";
+import IconClosePng from "../../../../public/assets/iconClose.png";
 import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/app/redux/features/store';
@@ -17,7 +18,9 @@ const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
    <Image src={netflixLogo} alt='netflix logo' className='w-[150px] h-[80px] cursor-pointer' onClick={() => {
     location.reload()
    }}/>
+
 <Image src={BurgerSvg} alt='burger svg' onClick={() => dispatch(setOpenFrame())} className='w-[45px] h-[45px]'/>
+<Image src={IconClosePng} alt='close icon png' onClick={() => dispatch(setOpenFrame())} className='w-[45px] h-[45px]'/>
 <BurgerFrame/>
     </header>
   )
