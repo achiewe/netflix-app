@@ -8,8 +8,7 @@ export default function SignInInput() {
 
   const [emailValue, setEmailValue] = useState<string>("");
   const [passwordValue, setPasswordValue] = useState<string>("");
-  console.log(emailValue, "email value");
-  console.log(passwordValue, "password value");
+
 
   return (
     <div className="flex flex-col gap-[20px]">
