@@ -9,6 +9,7 @@ import { RootState } from '@/app/redux/features/store';
 import { setOpenFrame } from '@/app/redux/features/OpenBurgerSlice';
 import BurgerFrame from '../BurgerFrame/BurgerFrame';
 
+// add the header component
 export default function Header() {
 const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
  const dispatch = useDispatch()
