@@ -20,7 +20,7 @@ const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
     location.reload()
    }}/>
 
-{openFrame ? <Image src={BurgerSvg} alt='burger svg' onClick={() => dispatch(setOpenFrame(false))} className='w-[45px] h-[45px]'/> : <Image src={IconClosePng} alt='close icon png' onClick={() => dispatch(setOpenFrame(true))} className='w-[45px] h-[45px]'/>}
+{openFrame ? <Image src={BurgerSvg} alt='burger svg' onClick={() => dispatch(setOpenFrame(false))} className='w-[45px] h-[45px] cursor-pointer'/> : <Image src={IconClosePng} alt='close icon png' onClick={() => dispatch(setOpenFrame(true))} className='w-[45px] h-[45px] cursor-pointer'/>}
 <BurgerFrame/>
     </header>
   )
