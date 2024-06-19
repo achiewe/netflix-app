@@ -4,15 +4,9 @@ import CustomInput from '../costum/CustomInput'
 export default function SignUpInputs() {
   return (
     <div className="flex flex-col gap-[20px]">
-      <CustomInput inputType="email" value={emailValue} inputPlaceholder="Email or mobile number" onChange={(e) => {
-        setEmailValue(e.target.value)
-      }}/>
-      <CustomInput inputType="password" value={passwordValue} inputPlaceholder="password" onChange={(e) => {
-        setPasswordValue(e.target.value)
-      }}/>
-      <CustomInput inputType="password" value={passwordValue} inputPlaceholder="password" onChange={(e) => {
-        setPasswordValue(e.target.value)
-      }}/>
+      <CustomInput inputType="email" value="asdasd" inputPlaceholder="Email or mobile number" />
+      <CustomInput inputType="password" value="asdasd" inputPlaceholder="password" />
+      <CustomInput inputType="password" value="asdasd" inputPlaceholder="repeat password" />
     </div>
   )
 }
