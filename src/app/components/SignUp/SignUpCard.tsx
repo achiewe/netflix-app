@@ -1,4 +1,5 @@
 import React from 'react'
+import SignUpInputs from './SignUpInputs'
 
 export default function SignUpCard() {
   return (
@@ -7,7 +8,7 @@ export default function SignUpCard() {
         <h1 className="font-bold text-[#ffffff] text-2xl mb-[28px]">Sign Up</h1>
       </header>
       <div className="w-full flex flex-col gap-[16px]">
-   
+   <SignUpInputs/>
       </div>
     </form>
   )
