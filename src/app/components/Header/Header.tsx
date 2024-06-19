@@ -13,7 +13,7 @@ import BurgerFrame from '../BurgerFrame/BurgerFrame';
 export default function Header() {
 const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
  const dispatch = useDispatch()
- console.log(openFrame)
+ 
   return (
     <header className='flex flex-row w-full items-center justify-between px-[15px] relative'>
    <Image src={netflixLogo} alt='netflix logo' className='w-[150px] h-[80px] cursor-pointer' onClick={() => {
