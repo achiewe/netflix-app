@@ -14,12 +14,11 @@ export default function SignInButton() {
   const handleSignInClick = () => {
     console.log("Sign In button clicked");
     window.location.href = '/';
-    // Add your sign-in logic here
   };
 
   const handleSignUpClick = () => {
     console.log("Sign Up button clicked");
-    // Add your sign-up logic here
+  
   };
   return (
     <div className='w-full flex flex-col gap-[16px]'>
