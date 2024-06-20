@@ -5,7 +5,7 @@ import CustomInput from '../costum/CustomInput'
 
 export default function SignUpInputs() {
     const [email, setEmail] = useState<string>("");
-    console.log(email)
+
   return (
     <div className="flex flex-col gap-[20px]">
       <CustomInput inputType="email" value="asdasd" inputPlaceholder="Email or mobile number"  onChange={(e) => {
