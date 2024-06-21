@@ -3,6 +3,8 @@
 import React, { useState } from 'react'
 import CustomInput from '../costum/CustomInput'
 
+
+// add the SIgnUpInputs component
 export default function SignUpInputs() {
     const [email, setEmail] = useState<string>("");
 
