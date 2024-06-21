@@ -1,6 +1,7 @@
 import React from 'react'
 import SignUpInputs from './SignUpInputs'
 
+// add SignUpCard component
 export default function SignUpCard() {
   return (
     <form className="w-full min-h-[600px] flex max-w-[450px] flex-col px-[68px] py-[48px] bg-[rgba(0,0,0,0.7)] z-10">
