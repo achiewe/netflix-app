@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react'
 import { useSelector } from 'react-redux';
 
-// BurgerFrame
+// BurgerFrame component
 export default function BurgerFrame() {
     const openFrame = useSelector((store:RootState) => store.openFrame.openFrame)
   return (
