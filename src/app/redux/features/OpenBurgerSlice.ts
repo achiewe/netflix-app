@@ -1,5 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
+// state type
 export interface BurgerProps{
     openFrame:boolean
 }
