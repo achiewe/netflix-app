@@ -11,6 +11,8 @@ const initialState:BurgerProps = {
     openFrame:true
 };
 
+
+// object createSlice where is properties to use it
 const OpenBurgerSlice = createSlice({
     name:"openFrame",
     initialState,
