@@ -5,6 +5,8 @@ export interface BurgerProps{
     openFrame:boolean
 }
 
+
+// write initial type of the state
 const initialState:BurgerProps = {
     openFrame:true
 };
