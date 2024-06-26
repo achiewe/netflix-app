@@ -8,7 +8,7 @@ const store = configureStore({
     }
 })
 
-
+// export type state to use it in the project
 export type RootState = {
     openFrame:BurgerProps
 }
