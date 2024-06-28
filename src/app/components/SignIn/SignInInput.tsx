@@ -6,6 +6,7 @@ import CustomInput from "../costum/CustomInput";
 // SignInInput function
 export default function SignInInput() {
 
+  // state for email and for password
   const [emailValue, setEmailValue] = useState<string>("");
   const [passwordValue, setPasswordValue] = useState<string>("");
 
