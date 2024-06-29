@@ -23,5 +23,6 @@ const OpenBurgerSlice = createSlice({
     }
 })
 
+//export setState
 export const {setOpenFrame} = OpenBurgerSlice.actions
 export default OpenBurgerSlice.reducer
