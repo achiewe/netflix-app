@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import { ReduxProvider } from "./redux/provider";
 
+// add the roboto font family
 const roboto = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Netflix",
