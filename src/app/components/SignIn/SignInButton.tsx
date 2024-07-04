@@ -18,6 +18,7 @@ export default function SignInButton() {
     window.location.href = '/';
   };
 
+  // handelSignUpClick function
   const handleSignUpClick = () => {
     console.log("Sign Up button clicked");
   
