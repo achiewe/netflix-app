@@ -1,4 +1,6 @@
 "use client";
+
+// import files 
 import React from 'react'
 import netflixLogo from "../../../../public/assets/netflixLogo.png";
 import BurgerSvg from "../../../../public/assets/burgerMenu.svg";
