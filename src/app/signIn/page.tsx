@@ -1,5 +1,6 @@
 "use client";
 
+// import react and signInCard from the component
 import React from "react";
 import SignInCard from "../components/SignIn/SignInCard";
 
