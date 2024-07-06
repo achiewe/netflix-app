@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+// interface for states
 interface CustomButtonProps{
 buttonName:string;
 onClick: () => void;
