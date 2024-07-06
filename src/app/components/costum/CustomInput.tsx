@@ -1,5 +1,6 @@
 import React from "react";
 
+// interface of the states
 interface inputProps {
   inputType: string;
   inputPlaceholder: string;
