@@ -1,12 +1,13 @@
 import React from "react";
 
-// interface of the states
+
 interface inputProps {
   inputType: string;
   inputPlaceholder: string;
   value:string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
+
 
 function CustomInput({ inputType, inputPlaceholder, onChange, value }: inputProps): JSX.Element {
   return (
