@@ -8,7 +8,7 @@ interface inputProps {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-
+// customInput function
 function CustomInput({ inputType, inputPlaceholder, onChange, value }: inputProps): JSX.Element {
   return (
     <input
