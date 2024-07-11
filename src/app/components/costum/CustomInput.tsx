@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// interface for input
 interface inputProps {
   inputType: string;
   inputPlaceholder: string;
