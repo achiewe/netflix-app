@@ -1,3 +1,4 @@
+// import files for the component
 import React from 'react'
 import SignUpCard from '../components/SignUp/SignUpCard'
 
