@@ -1,5 +1,6 @@
 "use client"
 
+// import files in the SignIpInputs component
 import React, { useState } from 'react'
 import CustomInput from '../costum/CustomInput'
 
