@@ -1,4 +1,6 @@
 "use client";
+
+// importing files
 import { RootState } from '@/app/redux/features/store';
 import Link from 'next/link';
 import React from 'react'
