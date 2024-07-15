@@ -11,7 +11,8 @@ export default function SignInInput() {
   const [emailValue, setEmailValue] = useState<string>("");
   const [passwordValue, setPasswordValue] = useState<string>("");
 
-
+console.log(emailValue)
+console.log(passwordValue)
   return (
     <div className="flex flex-col gap-[20px]">
       <CustomInput inputType="email" value={emailValue} inputPlaceholder="Email or mobile number" onChange={(e) => {
